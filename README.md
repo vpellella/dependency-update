@@ -9,11 +9,11 @@ Update pom file dependency version
 
 Enter/update below details in the application.properties file
 
-- dependency.update.location='<root folder location>'
-- dependency.update.from.groupId='<dependency-group-id>'
-- dependency.update.from.artifactId='<dependency-artifact-id>'
-- dependency.update.from.version='<dependency-old-version>'
-- dependency.update.to.version='<dependency-new-version>'
+- dependency.update.location= specify root folder location
+- dependency.update.from.groupId= specify dependency groupId to be updated
+- dependency.update.from.artifactId=specify dependency artifactId to be updated
+- dependency.update.from.version= specify dependency from what version to be updated
+- dependency.update.to.version= specify dependency version to be updated
 
 
 ## NOTE
